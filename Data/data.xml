@@ -1,0 +1,11 @@
+<intcitydata>
+	<!-- Add an SRTM terrain -->
+	<terrain type="srtm" path="Terrain" />
+
+	<!-- Add layers -->
+	<layers>
+		<!-- Osm layer -->
+		<layer name="nearhome" type="osm" path="OSM/nearhome.osm" materials="Materials" />
+	</layers>
+</intcitydata>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="InteractiveCity" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\;CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="IntCity">
+         <Option output="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/dist/bin/IntCity" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/dist/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_ALL_NO_LIB" />
+            <Add directory="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/include" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/OGRE" />
+            <Add directory="/usr/local/share/OGRE/samples/Common/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 IntCity" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="IntCity/fast">
+         <Option output="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/dist/bin/IntCity" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/dist/bin" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_ALL_NO_LIB" />
+            <Add directory="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/include" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/OGRE" />
+            <Add directory="/usr/local/share/OGRE/samples/Common/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 IntCity/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/dak/Dropbox/IntCity/Repo/TestSkyWater" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dak/Dropbox/IntCity/Repo/TestSkyWater/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/src/TestApp.cpp">
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/src/WaterMesh.cpp">
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/include/TestApp.h">
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/include/WaterMesh.h">
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/../../../../../../usr/local/lib/OGRE/cmake/FindOGRE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/../../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/../../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/../../../../../../usr/local/lib/OGRE/cmake/FindOIS.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
+      </Unit>
+      <Unit filename="/home/dak/Dropbox/IntCity/Repo/TestSkyWater/../../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g    CMakeFiles/IntCity.dir/src/main.cpp.o CMakeFiles/IntCity.dir/src/WaterMesh.cpp.o CMakeFiles/IntCity.dir/src/TestApp.cpp.o  -o dist/bin/IntCity -rdynamic /usr/local/lib/libOgreMain.so -lboost_thread-mt -lpthread -lboost_date_time-mt -lOIS -Wl,-rpath,/usr/local/lib: 
